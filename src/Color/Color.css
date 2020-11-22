@@ -1,0 +1,11 @@
+.ColorBox {
+    height: 10em;
+    width: 10em;
+    border: 1px solid white;
+}
+
+.BoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}

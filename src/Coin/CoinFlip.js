@@ -19,18 +19,6 @@ export class CoinFlip extends Component {
     flip(){
         let idx = Math.floor(Math.random() * this.props.image.length);
 
-        //     this.setState(currState =>({
-        //         currImage: <img src={this.props.image[idx]} alt=""></img>,
-        //         flipCounter: currState.flipCounter + 1
-        //     }))
-
-        // idx === 0 ? 
-        //     this.setState(currState =>({
-        //     headsCount: currState.headsCount + 1,
-        // })) :
-        //     this.setState(currState =>({
-        //     tailsCount: currState.tailsCount + 1,
-        //     }))
 
         this.setState(currState => { 
             let newState = {
