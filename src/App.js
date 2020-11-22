@@ -1,11 +1,13 @@
 import RandomGame from './Random/RandomGame'
 import Dice from './Dice/Dice'
+import Lottery from './Lottery/Lottery'
+
 
 
 function App() {
   return (
     <div className="App">
-      <Dice />
+      <Lottery />
     </div>
   );
 }
