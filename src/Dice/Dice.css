@@ -1,0 +1,25 @@
+.Dice {
+    font-size: 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.RollDice button {
+    width: 250px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 50px;
+    color: black;
+    background-color: lightgrey;
+}
+
+.RollDice button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: ease-in .2s
+}
+
+.RollDice button:focus {
+    outline: none;
+}
