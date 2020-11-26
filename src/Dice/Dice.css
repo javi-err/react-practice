@@ -16,7 +16,7 @@
 .RollDice button:hover {
     background-color: black;
     color: white;
-    cursor: pointer;
+    cursor: pointer; 
     transition: ease-in .2s
 }
 

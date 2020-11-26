@@ -1,0 +1,11 @@
+.BoxListForm > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2em;
+}
+
+label, input {
+    margin-bottom: .5em;
+}
